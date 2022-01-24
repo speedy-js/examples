@@ -1,2 +1,3 @@
-# examples
-examples for speedystack
+# Examples
+
+Examples for [SpeedyStack](https://github.com/hardfist/speedystack).
