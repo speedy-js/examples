@@ -1,0 +1,15 @@
+{
+  "name": "@speedy/examples",
+  "version": "1.0.0",
+  "description": "examples for speedystack",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speedy-js/examples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/speedy-js/examples/issues"
+  },
+  "homepage": "https://github.com/speedy-js/examples#readme"
+}
