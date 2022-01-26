@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "jsx": "react",
+    "esModuleInterop": true,
+    "types": ["@speedy-js/speedy-core/client"]
+  },
+  "include": ["src"]
+}
