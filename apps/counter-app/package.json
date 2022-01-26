@@ -4,8 +4,8 @@
   "private": true,
   "description": "Speedy React counter app example",
   "scripts": {
-    "build": "rimraf dist && speedy build -c speedy.config.ts",
-    "dev": "rimraf dist && speedy dev -c speedy.config.ts",
+    "build": "speedy build -c speedy.config.ts",
+    "dev": "speedy dev -c speedy.config.ts",
     "start": "speedy start"
   },
   "keywords": [

@@ -3,8 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "build": "rimraf dist && speedy build -c speedy.config.ts",
-    "dev": "rimraf dist && speedy dev -c speedy.config.ts",
+    "build": "speedy build -c speedy.config.ts",
+    "dev": "speedy dev -c speedy.config.ts",
     "start": "speedy start"
   },
   "dependencies": {
