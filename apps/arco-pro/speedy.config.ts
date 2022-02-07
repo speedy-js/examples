@@ -8,6 +8,21 @@ export = defineConfig({
   input: {index: './src/index.tsx'},
   html: {},
   plugins: [
-    svgrPlugin()
-  ]
-})
+    svgrPlugin({
+      template: (
+        { imports, interfaces, componentName, props, jsx },
+        { tpl }
+      ) => {
+        return tpl`${imports}
+    ${interfaces}
+
+    function ${componentName}(${props}) {
+      return ${jsx};
+    }
+    
+    export default ${componentName};
+      `;
+      },
+    }),
+  ],
+});
