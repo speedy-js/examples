@@ -15,12 +15,13 @@ pnpm init speedy@latest
 Create based on template:
 
 ```bash
-npm init speedy@latest --template cra
+npm init speedy@latest -- speedy-project --template react-minimal
 ```
 
 Available templates:
 
-- antd-example
+- react-minimal
+- arco-design-pro
 - counter-app
 - library-example
 - vue2-example
