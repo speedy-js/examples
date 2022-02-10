@@ -26,6 +26,7 @@
     "sync-templates": "rimraf templates && esno sync-templates.ts",
     "bundle": "esno build.ts",
     "build": "pnpm sync-templates && pnpm bundle",
+    "prepublishOnly": "pnpm build",
     "dev": "pnpm bundle -- --watch",
     "test": "uvu -r tsm __tests__"
   },
