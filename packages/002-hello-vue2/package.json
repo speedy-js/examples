@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "speedy dev",
+    "build": "speedy build"
+  },
+  "devDependencies": {
+    "vue": "2.6.14",
+    "vue-template-compiler": "2.6.14",
+    "postcss": "8.4.6",
+    "@speedy-js/speedy-core": "latest",
+    "@speedy-js/speedy-plugin-vue2": "latest"
+  }
+}
