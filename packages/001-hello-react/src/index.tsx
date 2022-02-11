@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './App.css';
 
 function App() {
   return (
-  <div>
-    <p>Hello World</p>
-  </div>
+    <div className='container'>
+      <p className='text'>Hello React</p>
+    </div>
   )
 }
 
