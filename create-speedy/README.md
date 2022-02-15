@@ -21,6 +21,7 @@ npm init speedy@latest -- speedy-project --template react-minimal
 Available templates:
 
 - react-minimal
+- react-ssr
 - arco-design-pro
 - counter-app
 - library-example

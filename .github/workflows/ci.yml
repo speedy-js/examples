@@ -21,7 +21,7 @@ jobs:
         with:
           version: 6.0.2
 
-      - name: Install and Build 🔧
+      - name: Install, Build and Test 🔧
         run: |
           pnpm i
           cd create-speedy
