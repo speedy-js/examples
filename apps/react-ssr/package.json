@@ -1,0 +1,24 @@
+{
+  "name": "react-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "universal dev",
+    "start": "universal start",
+    "build": "universal build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@speedy-js/universal": "0.0.0-experimental.2591a285",
+    "@types/react": "17.0.33",
+    "@types/react-dom": "17.0.10",
+    "source-map-support": "0.5.21"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}
