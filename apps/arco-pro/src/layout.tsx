@@ -32,6 +32,27 @@ const SubMenu = Menu.SubMenu;
 const Sider = Layout.Sider;
 const Content = Layout.Content;
 
+// TODO: We are not support code splitting now......
+import Monitor from './pages/dashboard/monitor';
+import Workpalce from './pages/dashboard/workplace';
+import Exception403 from './pages/exception/403';
+import Exception404 from './pages/exception/404';
+import Exception500 from './pages/exception/500';
+import Group from './pages/form/group';
+import Step from './pages/form/step';
+import Card from './pages/list/card';
+import SearchTable from './pages/list/search-table';
+import Login from './pages/login';
+import Profile from './pages/profile/basic';
+import Error from './pages/result/error';
+import Success from './pages/result/success';
+import Info from './pages/user/info';
+import Setting from './pages/user/setting';
+import DataAnalysis from './pages/visualization/data-analysis';
+import MutilDimensionDataAnalysis from './pages/visualization/multi-dimension-data-analysis';
+import Welcome from './pages/welcome';
+
+
 function getIconFromKey(key) {
   switch (key) {
     case 'dashboard':
@@ -57,7 +78,6 @@ function getIconFromKey(key) {
 
 function getFlattenRoutes(routes) {
   const res = [];
-  // not support dynamic import expression yet
   // function travel(_routes) {
   //   _routes.forEach((route) => {
   //     if (route.key && !route.children) {
@@ -69,6 +89,55 @@ function getFlattenRoutes(routes) {
   //   });
   // }
   // travel(routes);
+
+  // You may be very surprised why it is written this way, so am I...
+  function travel(_routes) {
+    _routes.forEach((route) => {
+      if (route.key && !route.children) {
+        if (route.key.includes('dashboard/monitor')) {
+          route.component = Monitor;
+        } else if (route.key.includes('dashboard/workplace')) {
+          route.component = Workpalce;
+        } else if (route.key.includes('exception/403')) {
+          route.component = Exception403;
+        } else if (route.key.includes('exception/404')) {
+          route.component = Exception404;
+        } else if (route.key.includes('exception/500')) {
+          route.component = Exception500;
+        } else if (route.key.includes('form/group')) {
+          route.component = Group;
+        } else if (route.key.includes('form/step')) {
+          route.component = Step;
+        } else if (route.key.includes('list/card')) {
+          route.component = Card;
+        } else if (route.key.includes('list/search-table')) {
+          route.component = SearchTable;
+        } else if (route.key.includes('profile/basic')) {
+          route.component = Profile;
+        } else if (route.key.includes('result/error')) {
+          route.component = Error;
+        } else if (route.key.includes('result/success')) {
+          route.component = Success;
+        } else if (route.key.includes('user/info')) {
+          route.component = Info;
+        } else if (route.key.includes('user/setting')) {
+          route.component = Setting;
+        } else if (route.key.includes('visualization/data-analysis')) {
+          route.component = DataAnalysis;
+        } else if (route.key.includes('visualization/multi-dimension-data-analysis')) {
+          route.component = MutilDimensionDataAnalysis;
+        } else if (route.key.includes('welcome')) {
+          route.component = Welcome;
+        } else if (route.key.includes('login')) {
+          route.component = Login;
+        }
+        res.push(route);
+      } else if (isArray(route.children) && route.children.length) {
+        travel(route.children);
+      }
+    });
+  }
+  travel(routes);
   return res;
 }
 
@@ -161,8 +230,13 @@ function PageLayout() {
 
   function onClickMenuItem(key) {
     const currentRoute = flattenRoutes.find((r) => r.key === key);
-    const component = currentRoute.component;
-    const preload = component.preload();
+    // const component = currentRoute.component;
+    // const preload = component.preload;
+    const preload = new Promise((resolve) => {
+      setTimeout(() => {
+        resolve(true)
+      }, Math.random() * 500);
+    });
     NProgress.start();
     preload.then(() => {
       setSelectedKeys([key]);
