@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.svg';
 import './index.css';
 
-const App: React.FC = ({ repos = [] }) => {
+const App: React.FC = ({}) => {
   React.useEffect(() => {
     console.log('useEffect called');
   }, []);
