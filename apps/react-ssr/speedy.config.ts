@@ -8,6 +8,7 @@ export default defineConfig({
   ssr: {
     pages: {
       index: './src/pages/index',
+      demo: './src/pages/demo',
     },
     environment: 'node',
   },
