@@ -19,8 +19,8 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hardfist/speedystack.git",
-    "directory": "packages/create-speedy"
+    "url": "git+https://github.com/speedy-js/examples.git",
+    "directory": "create-speedy"
   },
   "scripts": {
     "sync-templates": "rimraf templates && esno sync-templates.ts",
