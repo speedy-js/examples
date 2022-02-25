@@ -24,6 +24,5 @@ jobs:
       - name: Install, Build and Test 🔧
         run: |
           pnpm i
-          cd create-speedy
-          pnpm build
-          pnpm test
+          pnpm -r build
+          pnpm -r test
