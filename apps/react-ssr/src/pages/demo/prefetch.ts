@@ -1,4 +1,6 @@
-export const getServerSideProps = async () => {
+import { defineGetServerData } from '@speedy-js/universal/types'
+
+export default defineGetServerData(async () => {
   return {
     emojis: [
       {
@@ -87,4 +89,4 @@ export const getServerSideProps = async () => {
       },
     ],
   };
-};
+});
