@@ -12,7 +12,7 @@ importers:
       '@arco-design/web-react': ^2.29.1
       '@arco-themes/react-arco-pro': ^0.0.7
       '@loadable/component': ^5.15.2
-      '@speedy-js/speedy-core': latest
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@speedy-js/speedy-plugin-babel': 0.9.2-alpha.2
       '@speedy-js/speedy-plugin-svgr': 0.9.2-alpha.1
       '@speedy-js/unplugin': 0.9.2-alpha.2
@@ -65,7 +65,7 @@ importers:
       react-router-dom: 5.3.0_react@17.0.2
       redux: 4.1.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.1
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@speedy-js/speedy-plugin-babel': 0.9.2-alpha.2
       '@speedy-js/speedy-plugin-svgr': 0.9.2-alpha.1
       '@speedy-js/unplugin': 0.9.2-alpha.2
@@ -78,7 +78,7 @@ importers:
 
   apps/counter-app:
     specifiers:
-      '@speedy-js/speedy-core': latest
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@types/node': 12.20.42
       '@types/react': 17.0.33
       '@types/react-dom': 17.0.10
@@ -89,7 +89,7 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.1
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@types/node': 12.20.42
       '@types/react': 17.0.33
       '@types/react-dom': 17.0.10
@@ -98,31 +98,31 @@ importers:
   apps/library:
     specifiers:
       '@speedy-js/eslint-config': 0.1.3
-      '@speedy-js/speedy-core': latest
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       eslint: 7.32.0
       typescript: 4.4.4
     devDependencies:
       '@speedy-js/eslint-config': 0.1.3_eslint@7.32.0+typescript@4.4.4
-      '@speedy-js/speedy-core': 0.11.1
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       eslint: 7.32.0
       typescript: 4.4.4
 
   apps/react-minimal:
     specifiers:
-      '@speedy-js/speedy-core': latest
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@types/react': 17.0.33
       '@types/react-dom': 17.0.10
       react: 17.0.2
       react-dom: 17.0.2
-      typescript: latest
+      typescript: 4.4.4
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.1
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@types/react': 17.0.33
       '@types/react-dom': 17.0.10
-      typescript: 4.6.2
+      typescript: 4.4.4
 
   apps/react-ssr:
     specifiers:
@@ -148,7 +148,7 @@ importers:
   apps/vue2:
     specifiers:
       '@speedy-js/eslint-config': 0.1.3
-      '@speedy-js/speedy-core': latest
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@speedy-js/speedy-plugin-vue2': 0.9.2-0
       eslint: 7.32.0
       typescript: 4.4.4
@@ -158,7 +158,7 @@ importers:
       vue: 2.6.14
     devDependencies:
       '@speedy-js/eslint-config': 0.1.3_eslint@7.32.0+typescript@4.4.4
-      '@speedy-js/speedy-core': 0.11.1
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@speedy-js/speedy-plugin-vue2': 0.9.2-0_vue-template-compiler@2.6.14
       eslint: 7.32.0
       typescript: 4.4.4
@@ -169,7 +169,7 @@ importers:
       '@iconify-json/carbon': 1.0.12
       '@iconify-json/mdi': 1.0.12
       '@speedy-js/eslint-config': 0.1.3
-      '@speedy-js/speedy-core': latest
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@speedy-js/unplugin': 0.9.2-0
       '@vue/compiler-sfc': 3.2.26
       eslint: 7.32.0
@@ -185,7 +185,7 @@ importers:
       '@iconify-json/carbon': 1.0.12
       '@iconify-json/mdi': 1.0.12
       '@speedy-js/eslint-config': 0.1.3_eslint@7.32.0+typescript@4.4.4
-      '@speedy-js/speedy-core': 0.11.1
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@speedy-js/unplugin': 0.9.2-0
       '@vue/compiler-sfc': 3.2.26
       eslint: 7.32.0
@@ -1087,6 +1087,10 @@ packages:
     resolution: {integrity: sha512-QZLjE3ApucIne25puclxQfm+h4CqiGAfsVNhjJoQAbUjDaF+YGFAKPrnOh00c0ajN1hh1gIB8K837la943ZnmQ==}
     dev: true
 
+  /@speedy-js/speedy-config-loader/0.11.2-alpha.0:
+    resolution: {integrity: sha512-uzNWeIiC6ckHEvW/09VBLjAIMps0dpq/8U5O/TkprzTKnzeg2xOxZUZ9QWMTFrgXx0kIa8n28Zq0GaGSOGUFeQ==}
+    dev: true
+
   /@speedy-js/speedy-core/0.11.1:
     resolution: {integrity: sha512-vJjMoYUP8pSGoHFelzt78aOkD4j4r4D3qxkxSeyXMrdZzdDq4FKnA9hr3SW1RSI1iRtOTOkNF6k0qnmi0pCSmA==}
     hasBin: true
@@ -1106,6 +1110,17 @@ packages:
       '@speedy-js/source-map': 0.1.3
       '@speedy-js/speedy-config-loader': 0.11.1-alpha.0
       '@speedy-js/speedy-utils': 0.11.1-alpha.0
+      esbuild: 0.14.23
+    dev: true
+
+  /@speedy-js/speedy-core/0.11.2-alpha.0:
+    resolution: {integrity: sha512-gXEWaoHdXBfZKjXjMjE8etkjBciYSrKZpWKr85N8L7ooqqgOvfAS8D87MLPIuxAAUQSUj2KgrlS/L/NMBVGybQ==}
+    hasBin: true
+    dependencies:
+      '@prebundle/detect-port': 1.3.1
+      '@speedy-js/source-map': 0.1.3
+      '@speedy-js/speedy-config-loader': 0.11.2-alpha.0
+      '@speedy-js/speedy-utils': 0.11.2-alpha.0
       esbuild: 0.14.23
     dev: true
 
@@ -1190,6 +1205,10 @@ packages:
 
   /@speedy-js/speedy-utils/0.11.1-alpha.0:
     resolution: {integrity: sha512-hoSEjGmYMkfAa052og/H78VOPIMpPVlIR934mHB6bvPbY1GF2oGBOzReRs6/u+opKkESIt9unk30GFzD+kunuw==}
+    dev: true
+
+  /@speedy-js/speedy-utils/0.11.2-alpha.0:
+    resolution: {integrity: sha512-QCrFPCJcDXHC72oZOBRexQ1pIdpfoYODT9051a/53d5D5aCZUV3zQPAwQLfixxxV30AkpujtbcCq/A4xFyeENQ==}
     dev: true
 
   /@speedy-js/universal/0.0.14:
@@ -7120,12 +7139,6 @@ packages:
 
   /typescript/4.5.5:
     resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
-    engines: {node: '>=4.2.0'}
-    hasBin: true
-    dev: true
-
-  /typescript/4.6.2:
-    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
