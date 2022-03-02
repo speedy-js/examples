@@ -25,7 +25,7 @@ test('create-speedy', async () => {
       },
     );
     process.chdir(targetFolder);
-    await execa('pnpm', ['install', '.'], { stdio: 'inherit' });
+    await execa('pnpm', ['install', '.', '--lockfile=false'], { stdio: 'inherit' });
     await execa('pnpm', ['build'], { stdio: 'inherit' });
   }
 });
