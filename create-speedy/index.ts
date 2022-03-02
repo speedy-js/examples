@@ -31,8 +31,8 @@ async function init() {
   const templates = await getTemplates(templatesFolder);
   const templateNames = templates.map((t) => t.name);
   const templateName2Template: Record<string, Template> = {};
-  for (const template of templates) {
-    templateName2Template[template.name] = template;
+  for (const templateObj of templates) {
+    templateName2Template[templateObj.name] = templateObj;
   }
 
   try {
@@ -61,7 +61,7 @@ async function init() {
           onState: (state) => (force = state.value),
         },
         {
-          type: (_, { force = true }) => {
+          type: () => {
             if (force === false) {
               throw new Error(`${red('✖')} Operation cancelled`);
             }
@@ -165,14 +165,14 @@ function toValidPackageName(projectName: string) {
     .replace(/[^a-z0-9-~]+/g, '-');
 }
 
-function isEmpty(path: string) {
-  return fs.readdirSync(path).length === 0;
+function isEmpty(filepath: string) {
+  return fs.readdirSync(filepath).length === 0;
 }
 
 function postOrderDirectoryTraverse(
   dir: string,
-  dirCallback: Function,
-  fileCallback: Function,
+  dirCallback: (dirpath: string) => void,
+  fileCallback: (filepath: string) => void,
 ) {
   for (const filename of fs.readdirSync(dir)) {
     const fullpath = path.resolve(dir, filename);
@@ -192,8 +192,8 @@ function emptyDir(dir: string) {
 
   postOrderDirectoryTraverse(
     dir,
-    (dir: string) => fs.rmdirSync(dir),
-    (file: string) => fs.unlinkSync(file),
+    (dirpath: string) => fs.rmdirSync(dirpath),
+    (filepath: string) => fs.unlinkSync(filepath),
   );
 }
 
