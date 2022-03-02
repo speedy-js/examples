@@ -1,6 +1,9 @@
 # create-speedy
 
-> An easy way to create a Speedy project
+[![npm (tag)](https://img.shields.io/npm/v/create-speedy/latest?style=flat-square)](https://www.npmjs.com/package/create-speedy)
+[![npm](https://img.shields.io/npm/dm/create-speedy?style=flat-square)](https://www.npmjs.com/package/create-speedy)
+
+> An easy way to create a [Speedy](https://www.npmjs.com/package/@speedy-js/speedy-core) project
 
 Create based on prompts:
 
