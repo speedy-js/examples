@@ -351,6 +351,40 @@ importers:
       '@types/react-dom': 17.0.13
       typescript: 4.6.2
 
+  playground/output-html:
+    specifiers:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@types/react': 17.0.33
+      '@types/react-dom': 17.0.10
+      react: 17.0.2
+      react-dom: 17.0.2
+      typescript: 4.4.4
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@types/react': 17.0.33
+      '@types/react-dom': 17.0.10
+      typescript: 4.4.4
+
+  playground/output-mpa:
+    specifiers:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@types/react': 17.0.33
+      '@types/react-dom': 17.0.10
+      react: 17.0.2
+      react-dom: 17.0.2
+      typescript: 4.4.4
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@types/react': 17.0.33
+      '@types/react-dom': 17.0.10
+      typescript: 4.4.4
+
 packages:
 
   /@antfu/install-pkg/0.1.0:
