@@ -300,7 +300,41 @@ importers:
       '@types/react-dom': 17.0.13
       typescript: 4.6.2
 
+  playground/asset-font:
+    specifiers:
+      '@speedy-js/speedy-core': latest
+      '@types/react': latest
+      '@types/react-dom': latest
+      react: 17.0.2
+      react-dom: 17.0.2
+      typescript: latest
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@types/react': 17.0.39
+      '@types/react-dom': 17.0.13
+      typescript: 4.6.2
+
   playground/asset-img:
+    specifiers:
+      '@speedy-js/speedy-core': latest
+      '@types/react': latest
+      '@types/react-dom': latest
+      react: 17.0.2
+      react-dom: 17.0.2
+      typescript: latest
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@types/react': 17.0.39
+      '@types/react-dom': 17.0.13
+      typescript: 4.6.2
+
+  playground/asset-public:
     specifiers:
       '@speedy-js/speedy-core': latest
       '@types/react': latest
