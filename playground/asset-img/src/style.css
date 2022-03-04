@@ -1,4 +1,5 @@
 body {
   background-color: antiquewhite;
+  background-image: url('./background.jpeg');
   color:red;
 }
