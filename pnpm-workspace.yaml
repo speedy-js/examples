@@ -2,3 +2,4 @@ packages:
   - apps/*
   - create-speedy
   - packages/*
+  - playground/*

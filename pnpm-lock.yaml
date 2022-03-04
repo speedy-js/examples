@@ -249,9 +249,9 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.1
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@types/react': 17.0.39
-      '@types/react-dom': 17.0.12
+      '@types/react-dom': 17.0.13
       typescript: 4.5.5
 
   packages/002-hello-vue2:
@@ -262,7 +262,7 @@ importers:
       vue: 2.6.14
       vue-template-compiler: 2.6.14
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.1
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@speedy-js/speedy-plugin-vue2': 0.10.0_68dd5271f93066f8b9ca10d8f02bfc44
       postcss: 8.4.6
       vue: 2.6.14
@@ -278,10 +278,27 @@ importers:
     dependencies:
       vue: 3.2.16
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.1
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@speedy-js/unplugin': 0.11.1
       '@vue/compiler-sfc': 3.2.26
       rollup-plugin-vue: 6.0.0_@vue+compiler-sfc@3.2.26
+
+  playground/asset:
+    specifiers:
+      '@speedy-js/speedy-core': latest
+      '@types/react': latest
+      '@types/react-dom': latest
+      react: 17.0.2
+      react-dom: 17.0.2
+      typescript: latest
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@types/react': 17.0.39
+      '@types/react-dom': 17.0.13
+      typescript: 4.6.2
 
 packages:
 
@@ -1079,27 +1096,12 @@ packages:
       '@speedy-js/source-map-win32-x64-msvc': 0.1.3
     dev: true
 
-  /@speedy-js/speedy-config-loader/0.11.1:
-    resolution: {integrity: sha512-1O6vTMTcBXMvyeKnqUkvt8bgIqjuhe9ArmovKHAX2/KefXaevBs3cSsRqllsg/2nspvHhpF6Zuy/83dKQbskhA==}
-    dev: true
-
   /@speedy-js/speedy-config-loader/0.11.1-alpha.0:
     resolution: {integrity: sha512-QZLjE3ApucIne25puclxQfm+h4CqiGAfsVNhjJoQAbUjDaF+YGFAKPrnOh00c0ajN1hh1gIB8K837la943ZnmQ==}
     dev: true
 
   /@speedy-js/speedy-config-loader/0.11.2-alpha.0:
     resolution: {integrity: sha512-uzNWeIiC6ckHEvW/09VBLjAIMps0dpq/8U5O/TkprzTKnzeg2xOxZUZ9QWMTFrgXx0kIa8n28Zq0GaGSOGUFeQ==}
-    dev: true
-
-  /@speedy-js/speedy-core/0.11.1:
-    resolution: {integrity: sha512-vJjMoYUP8pSGoHFelzt78aOkD4j4r4D3qxkxSeyXMrdZzdDq4FKnA9hr3SW1RSI1iRtOTOkNF6k0qnmi0pCSmA==}
-    hasBin: true
-    dependencies:
-      '@prebundle/detect-port': 1.3.1
-      '@speedy-js/source-map': 0.1.3
-      '@speedy-js/speedy-config-loader': 0.11.1
-      '@speedy-js/speedy-utils': 0.11.1
-      esbuild: 0.14.23
     dev: true
 
   /@speedy-js/speedy-core/0.11.1-alpha.0:
@@ -1197,10 +1199,6 @@ packages:
 
   /@speedy-js/speedy-types/0.9.2-alpha.1:
     resolution: {integrity: sha512-i0Esacoqh3ARxus8LcZq7iP4gEO/LGXkk8ZQSvIKcI+l82JSGPCdrwUEbQ8QD/I545to582UPg6un2Sv7eNmFg==}
-    dev: true
-
-  /@speedy-js/speedy-utils/0.11.1:
-    resolution: {integrity: sha512-T+Z3ht5oRgY94Pj2pfwX3CsKuijeco7AeE+coLjiyh2GwxommzRhOMAceLU9P19Uy/tdj7xUJ3f6c6Aw1HwLcw==}
     dev: true
 
   /@speedy-js/speedy-utils/0.11.1-alpha.0:
@@ -2467,8 +2465,8 @@ packages:
       '@types/react': 17.0.39
     dev: true
 
-  /@types/react-dom/17.0.12:
-    resolution: {integrity: sha512-SeJ430ndLI15JtRSHuzotn7AIdUtr8bdk6XW8mMfzjZo3vahRgJGHZqHiI4nAzCHTVG4qC21ObfsHBVUEHcDhg==}
+  /@types/react-dom/17.0.13:
+    resolution: {integrity: sha512-wEP+B8hzvy6ORDv1QBhcQia4j6ea4SFIBttHYpXKPFZRviBvknq0FRh3VrIxeXUmsPkwuXVZrVGG7KUVONmXCQ==}
     dependencies:
       '@types/react': 17.0.39
     dev: true
@@ -7139,6 +7137,12 @@ packages:
 
   /typescript/4.5.5:
     resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
+  /typescript/4.6.2:
+    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
