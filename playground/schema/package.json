@@ -1,0 +1,20 @@
+{
+  "name": "speedy-basic-example",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build:skip": "speedy build -c speedy.config.ts",
+    "dev": "speedy dev -c speedy.config.ts",
+    "start": "speedy start"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@speedy-js/speedy-core": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "typescript": "latest"
+  }
+}
