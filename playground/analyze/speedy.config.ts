@@ -1,11 +1,11 @@
-import { defineConfig }  from '@speedy-js/speedy-core';
+import { defineConfig } from '@speedy-js/speedy-core';
 
 export = defineConfig({
   input: {
-    index: './src/index.tsx'
+    index: './src/index.tsx',
   },
   analyze: {
-    stats: 'server'
+    stats: 'server',
   },
-  html: {}
-})
+  html: {},
+});
