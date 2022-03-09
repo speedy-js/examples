@@ -6,10 +6,7 @@ export default defineConfig({
   },
   minify: false,
   ssr: {
-    pages: {
-      index: './src/pages/index',
-      demo: './src/pages/demo',
-    },
+    pages: [],
     environment: 'node',
   },
 });
