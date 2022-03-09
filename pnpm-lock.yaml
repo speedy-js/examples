@@ -385,23 +385,6 @@ importers:
       '@types/react-dom': 17.0.13
       typescript: 4.6.2
 
-  playground/env:
-    specifiers:
-      '@speedy-js/speedy-core': latest
-      '@types/react': latest
-      '@types/react-dom': latest
-      react: 17.0.2
-      react-dom: 17.0.2
-      typescript: latest
-    dependencies:
-      react: 17.0.2
-      react-dom: 17.0.2_react@17.0.2
-    devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.39
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
-
   playground/es5:
     specifiers:
       '@speedy-js/speedy-core': latest
@@ -421,17 +404,19 @@ importers:
       '@types/react-dom': 17.0.13
       typescript: 4.6.2
 
-  playground/hash:
+  playground/external:
     specifiers:
       '@speedy-js/speedy-core': latest
       '@types/react': latest
       '@types/react-dom': latest
       react: 17.0.2
       react-dom: 17.0.2
+      the-answer: 1.0.0
       typescript: latest
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
+      the-answer: 1.0.0
     devDependencies:
       '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@types/react': 17.0.39
@@ -7249,6 +7234,10 @@ packages:
   /text-table/0.2.0:
     resolution: {integrity: sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=}
     dev: true
+
+  /the-answer/1.0.0:
+    resolution: {integrity: sha1-bbxMnbRp1PQ3EgsJ5EcA/DIPFws=}
+    dev: false
 
   /through/2.3.8:
     resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=}
