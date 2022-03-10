@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@speedy-js/speedy-core": "latest",
+    "@speedy-js/speedy-plugin-node-polyfill": "0.11.2-alpha.1",
     "typescript": "latest"
   }
 }
