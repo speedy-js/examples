@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-// @ts-expect-error
 import logo from '../../assets/logo.svg';
 import './index.css';
 
@@ -17,7 +16,12 @@ const App: React.FC = ({}) => {
           Edit <code>pages/index/index.tsx</code> and save to test HMR updates.
         </p>
         <p>
-          <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+          <a
+            className="App-link"
+            href="https://reactjs.org"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Learn React
           </a>
           {' | '}
