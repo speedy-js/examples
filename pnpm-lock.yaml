@@ -414,6 +414,23 @@ importers:
       '@types/react-dom': 17.0.13
       typescript: 4.6.2
 
+  playground/env:
+    specifiers:
+      '@speedy-js/speedy-core': latest
+      '@types/react': latest
+      '@types/react-dom': latest
+      react: 17.0.2
+      react-dom: 17.0.2
+      typescript: latest
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@types/react': 17.0.39
+      '@types/react-dom': 17.0.13
+      typescript: 4.6.2
+
   playground/es5:
     specifiers:
       '@speedy-js/speedy-core': latest
@@ -446,6 +463,23 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       the-answer: 1.0.0
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@types/react': 17.0.39
+      '@types/react-dom': 17.0.13
+      typescript: 4.6.2
+
+  playground/hash:
+    specifiers:
+      '@speedy-js/speedy-core': latest
+      '@types/react': latest
+      '@types/react-dom': latest
+      react: 17.0.2
+      react-dom: 17.0.2
+      typescript: latest
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
     devDependencies:
       '@speedy-js/speedy-core': 0.11.2-alpha.0
       '@types/react': 17.0.39
@@ -504,6 +538,23 @@ importers:
       typescript: 4.4.4
 
   playground/public-path:
+    specifiers:
+      '@speedy-js/speedy-core': latest
+      '@types/react': latest
+      '@types/react-dom': latest
+      react: 17.0.2
+      react-dom: 17.0.2
+      typescript: latest
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@types/react': 17.0.39
+      '@types/react-dom': 17.0.13
+      typescript: 4.6.2
+
+  playground/react-basic:
     specifiers:
       '@speedy-js/speedy-core': latest
       '@types/react': latest
@@ -3444,7 +3495,7 @@ packages:
   /axios/0.24.0:
     resolution: {integrity: sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==}
     dependencies:
-      follow-redirects: 1.14.7_debug@4.3.1
+      follow-redirects: 1.14.7
     transitivePeerDependencies:
       - debug
     dev: false
@@ -5103,7 +5154,7 @@ packages:
       tslib: 2.3.1
     dev: false
 
-  /follow-redirects/1.14.7_debug@4.3.1:
+  /follow-redirects/1.14.7:
     resolution: {integrity: sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==}
     engines: {node: '>=4.0'}
     peerDependencies:
@@ -5111,8 +5162,6 @@ packages:
     peerDependenciesMeta:
       debug:
         optional: true
-    dependencies:
-      debug: 4.3.1
 
   /for-each/0.3.3:
     resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
@@ -5340,7 +5389,7 @@ packages:
     engines: {node: '>=8.0.0'}
     dependencies:
       eventemitter3: 4.0.7
-      follow-redirects: 1.14.7_debug@4.3.1
+      follow-redirects: 1.14.7
       requires-port: 1.0.0
     transitivePeerDependencies:
       - debug
