@@ -405,6 +405,23 @@ importers:
       '@types/react-dom': 17.0.13
       typescript: 4.6.2
 
+  playground/entry-html:
+    specifiers:
+      '@speedy-js/speedy-core': 0.11.2-alpha.3
+      '@types/react': latest
+      '@types/react-dom': latest
+      react: 17.0.2
+      react-dom: 17.0.2
+      typescript: latest
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2-alpha.3
+      '@types/react': 17.0.40
+      '@types/react-dom': 17.0.13
+      typescript: 4.6.2
+
   playground/env:
     specifiers:
       '@speedy-js/speedy-core': latest
@@ -626,7 +643,7 @@ importers:
       react-router-dom: 6.2.2_react-dom@17.0.2+react@17.0.2
       redux: 4.1.2
     devDependencies:
-      '@speedy-js/universal': 0.0.20_@types+react@17.0.40
+      '@speedy-js/universal': 0.0.21_@types+react@17.0.40
       '@types/react': 17.0.40
       '@types/react-dom': 17.0.13
       typescript: 4.6.2
@@ -1622,8 +1639,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@speedy-js/universal/0.0.20_@types+react@17.0.40:
-    resolution: {integrity: sha512-xB29ipEHY+6EYJlWh6SdeTddcd83zi6BFyOpi5zmtloO1m4Ys3HSzvhaj074dcx9vvgOmDzYOtMNDlX957XJGw==}
+  /@speedy-js/universal/0.0.21_@types+react@17.0.40:
+    resolution: {integrity: sha512-foxKXL8Fl6Kv1dopZSnrHDNYCoRoP1Y6WhhqaqnQtTncVnzEZvXTl6EshYnYtMBQN3Zo4xAdwKIG/hDMyy1YXA==}
     hasBin: true
     dependencies:
       '@prebundle/detect-port': 1.3.1
