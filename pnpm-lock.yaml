@@ -12,7 +12,8 @@ importers:
       '@arco-design/web-react': ^2.29.1
       '@arco-themes/react-arco-pro': ^0.0.7
       '@loadable/component': ^5.15.2
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@speedy-js/esbuild': ' 0.14.28-speedy-0'
+      '@speedy-js/speedy-core': 0.11.2
       '@speedy-js/speedy-plugin-babel': 0.9.2-alpha.2
       '@speedy-js/speedy-plugin-svgr': 0.9.2-alpha.1
       '@speedy-js/unplugin': 0.9.2-alpha.2
@@ -65,7 +66,8 @@ importers:
       react-router-dom: 5.3.0_react@17.0.2
       redux: 4.1.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@speedy-js/esbuild': 0.14.28-speedy-0
+      '@speedy-js/speedy-core': 0.11.2
       '@speedy-js/speedy-plugin-babel': 0.9.2-alpha.2
       '@speedy-js/speedy-plugin-svgr': 0.9.2-alpha.1
       '@speedy-js/unplugin': 0.9.2-alpha.2
@@ -249,9 +251,9 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
       typescript: 4.5.5
 
   packages/002-hello-vue2:
@@ -262,8 +264,8 @@ importers:
       vue: 2.6.14
       vue-template-compiler: 2.6.14
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@speedy-js/speedy-plugin-vue2': 0.10.0_68dd5271f93066f8b9ca10d8f02bfc44
+      '@speedy-js/speedy-core': 0.11.2
+      '@speedy-js/speedy-plugin-vue2': 0.11.2_68dd5271f93066f8b9ca10d8f02bfc44
       postcss: 8.4.6
       vue: 2.6.14
       vue-template-compiler: 2.6.14
@@ -278,8 +280,8 @@ importers:
     dependencies:
       vue: 3.2.16
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@speedy-js/unplugin': 0.11.1
+      '@speedy-js/speedy-core': 0.11.2
+      '@speedy-js/unplugin': 0.11.2
       '@vue/compiler-sfc': 3.2.26
       rollup-plugin-vue: 6.0.0_@vue+compiler-sfc@3.2.26
 
@@ -290,10 +292,10 @@ importers:
       '@types/react-dom': latest
       typescript: latest
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/analyze:
     specifiers:
@@ -307,10 +309,10 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/asset-css:
     specifiers:
@@ -324,10 +326,10 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/asset-font:
     specifiers:
@@ -341,10 +343,10 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/asset-img:
     specifiers:
@@ -358,10 +360,10 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/asset-public:
     specifiers:
@@ -375,18 +377,18 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/basic:
     specifiers:
       '@speedy-js/speedy-core': latest
       typescript: latest
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      typescript: 4.6.3
 
   playground/bundle-css:
     specifiers:
@@ -400,10 +402,10 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/entry-html:
     specifiers:
@@ -418,9 +420,9 @@ importers:
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
       '@speedy-js/speedy-core': 0.11.2-alpha.3
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/env:
     specifiers:
@@ -434,15 +436,15 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/es5:
     specifiers:
       '@speedy-js/speedy-core': latest
-      '@speedy-js/speedy-plugin-es5': 0.11.2-alpha.0
+      '@speedy-js/speedy-plugin-es5': 0.11.2
       '@types/react': latest
       '@types/react-dom': latest
       react: 17.0.2
@@ -452,11 +454,11 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@speedy-js/speedy-plugin-es5': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@speedy-js/speedy-plugin-es5': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/external:
     specifiers:
@@ -472,10 +474,10 @@ importers:
       react-dom: 17.0.2_react@17.0.2
       the-answer: 1.0.0
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/hash:
     specifiers:
@@ -489,10 +491,10 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/library:
     specifiers:
@@ -506,10 +508,10 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/output-html:
     specifiers:
@@ -551,9 +553,9 @@ importers:
       '@speedy-js/speedy-plugin-node-polyfill': 0.11.2-alpha.1
       typescript: latest
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      '@speedy-js/speedy-core': 0.11.2
       '@speedy-js/speedy-plugin-node-polyfill': 0.11.2-alpha.1
-      typescript: 4.6.2
+      typescript: 4.6.3
 
   playground/public-path:
     specifiers:
@@ -567,10 +569,10 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/react-basic:
     specifiers:
@@ -584,10 +586,10 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/schema:
     specifiers:
@@ -601,15 +603,15 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/splitting:
     specifiers:
       '@speedy-js/speedy-core': latest
-      '@speedy-js/speedy-plugin-es5': 0.11.2-alpha.0
+      '@speedy-js/speedy-plugin-es5': 0.11.2
       '@types/react': latest
       '@types/react-dom': latest
       react: 17.0.2
@@ -619,11 +621,11 @@ importers:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     devDependencies:
-      '@speedy-js/speedy-core': 0.11.2-alpha.0
-      '@speedy-js/speedy-plugin-es5': 0.11.2-alpha.0
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@speedy-js/speedy-plugin-es5': 0.11.2
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
   playground/ssr-store:
     specifiers:
@@ -643,10 +645,10 @@ importers:
       react-router-dom: 6.2.2_react-dom@17.0.2+react@17.0.2
       redux: 4.1.2
     devDependencies:
-      '@speedy-js/universal': 0.0.21_@types+react@17.0.40
-      '@types/react': 17.0.40
-      '@types/react-dom': 17.0.13
-      typescript: 4.6.2
+      '@speedy-js/universal': 0.0.25_@types+react@17.0.43
+      '@types/react': 17.0.43
+      '@types/react-dom': 17.0.14
+      typescript: 4.6.3
 
 packages:
 
@@ -1282,6 +1284,194 @@ packages:
     resolution: {integrity: sha512-Xv0ByCRZzGEv/RMsP8Ko806HaLw34S8oMPFRKBjMULjFXuDgI2XrwNNuokqmOMmRJmS+aYORXSyVXio1w/nK1A==}
     dev: true
 
+  /@speedy-js/esbuild-android-64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-DPPhIM5Q21i6jh+j/yvs6bTh/YxEIqBzt/UHMUP1qpaN+7wQeFAJtXzPjLVy0gBRNEtxaLeqnYiWtJb6RoCTIg==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-android-arm64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-SXbhMgzpz3/d8yB0mu1xVcaB8xNjRStUoqFPojSEOdsyG3I1JFR7edLiMDqkpNR3goAn5vHSdJjdgxAEkXAPPg==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-darwin-64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-WPkxcL0agovvE+18zF9c/JPWI+wKopotw+oc999CBlsGf0ZZp8o4Ncc32xU5ICRuH4FCZJDoJvGJtjjcF0QBDA==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-darwin-arm64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-1xEQil582vaWovBsIS42mF4P0uuuaTB/1JwImJ0efMpAyT0dZhDTGG0PJyjrFX97AL+0duwdG6dtI7YUnP5Zlw==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-freebsd-64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-hY4Z2M6QRRDEAkq94VJqCTBElcYxE4i+Jo4OwtVPX+cp+gr6cGPhhmrbOqCya7NwQcywQOZFHkL1m2iuYn+/qw==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-freebsd-arm64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-9Tbz307De2ztJcLq5yDv7obL9HYTWr5do8NVheVLtGtGh/DvtKlUSwy/rpGei4iZBrw/d3JhDoG9cA9n30EoLw==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-linux-32/0.14.28-speedy-0:
+    resolution: {integrity: sha512-jX+s43dZwBszGLoIU/kPmOgkzFfFLwUl1sX58Z+CPRu0mi2AW9nlgQrla3nD7E7jp96TvEacLj1320J0cCecNg==}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-linux-64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-rMTmud3cZNeQHYpAs9pQYB7qI1LKv1+UcozLmdSreUaUydoHLnIq3kKfnHLmrHLf58IZBI4lNnO61PbKWZwzfw==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-linux-arm/0.14.28-speedy-0:
+    resolution: {integrity: sha512-PSCm+KzmDrml1jPXIs4gsEiM/LFj/ZfGbag6fjHG6CqPMAFiQlteT3+6lIgWeVx/8xM7N7HaU1rRICKJqOuk9w==}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-linux-arm64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-7k6NJt9Q/sSHR7M5mct0iJirWp3nQ+9bPAU494wxVBuZ+bmGPaToVg8k3BOIOn88+/SQWb4utNBtxY3W+zDZ6w==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-linux-mips64le/0.14.28-speedy-0:
+    resolution: {integrity: sha512-j1Y2ov8GFBoBcKcmbn1EIUJNhRufdEBk842dNFsoiMNwFkxYxrRgRJCMKHxLlNABVY7RTXFLnYPfYGc+yzZ8NQ==}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-linux-ppc64le/0.14.28-speedy-0:
+    resolution: {integrity: sha512-gYA0PDuZrV+4iz5Gz6GeCqrXRfUtzqS4j+Fr8CGKLXET+Ev1sqr38XddsSYwgGjVt8hzGFgf3K+a9CjWdbOJYg==}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-linux-riscv64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-Ho57frtSy6mjY/DP3vxM2ijyayTXEB5iCEM+yibYB5D1KkSy0z+4r5bgdRGHBTzNDJG89VSs0iSuXGhCvDihug==}
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-linux-s390x/0.14.28-speedy-0:
+    resolution: {integrity: sha512-5mBYimylsg2/X2cQ+DeY8LzfDxUWjjCwqMa7O6vwxjjIMsIzIPkENWlt7RCgq7jmp24BnKUWb4GsOzr3L+eHmQ==}
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-netbsd-64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-nqQOst1G3GXaYZNHeQD+9P865n59BKWKvO/2GA2S+wXdkvE2ydkqZ1mo0UnpU5US8Q88nxKWcNDMZGpFFq76pA==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-openbsd-64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-fK9ukcsxFxgqG99a4mGMDPBDa4nxYWXR7rI7mC0sNAsWqbMwPk556Go8EJq3qOlwe/ItcwdaO/1MAypLXufEaw==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-sunos-64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-RAhYTy9a3mPMTRGe5r58zFcLSxSoboaOW+g8DfM4yPo5yxOK6CCxn7TJ/fV3ShKxVvlB6yYV1JHLAZsB0pTt2w==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-windows-32/0.14.28-speedy-0:
+    resolution: {integrity: sha512-OOHLRTby5Ik6tsHI7cwgDbBPxg2HdN4ZKc1gOW42GbbFuX6YqqucsrqenB5ihkqMuZ2YPMY+LShyTwPPEDIaFA==}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-windows-64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-6C86mTTkiqMFncL5bfmfL0sURFi2lOepANNG9HXLrw/0cReb3Y8b3OQaZqI4OLZ4I2//SECwkAzayKYKKYX/Hg==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild-windows-arm64/0.14.28-speedy-0:
+    resolution: {integrity: sha512-6Flr5UGtNx63Mn5PpVZxeCDRhRnJHott5UgiOV7xGtGKG2+LhAl+ZeBq5rL1Tuty7OwVcCQXlnX8cXtHHT3rXg==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+    dev: true
+    optional: true
+
+  /@speedy-js/esbuild/0.14.28-speedy-0:
+    resolution: {integrity: sha512-gjcdY2VtNzdN7b/DUM0s+XxnW0GiHqV8jrCKGOKGsNGfTqrgTzoQdw925H5pVAqboleDcLLIHo3l9HXZR+kt6g==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      '@speedy-js/esbuild-android-64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-android-arm64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-darwin-64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-darwin-arm64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-freebsd-64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-freebsd-arm64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-linux-32': 0.14.28-speedy-0
+      '@speedy-js/esbuild-linux-64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-linux-arm': 0.14.28-speedy-0
+      '@speedy-js/esbuild-linux-arm64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-linux-mips64le': 0.14.28-speedy-0
+      '@speedy-js/esbuild-linux-ppc64le': 0.14.28-speedy-0
+      '@speedy-js/esbuild-linux-riscv64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-linux-s390x': 0.14.28-speedy-0
+      '@speedy-js/esbuild-netbsd-64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-openbsd-64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-sunos-64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-windows-32': 0.14.28-speedy-0
+      '@speedy-js/esbuild-windows-64': 0.14.28-speedy-0
+      '@speedy-js/esbuild-windows-arm64': 0.14.28-speedy-0
+    dev: true
+
   /@speedy-js/eslint-config/0.1.3_eslint@7.32.0:
     resolution: {integrity: sha512-eSLutNus4qAZWJ8Q1rYXwYkzKW4GMmVhNoQXc78cmboPUPb64kCJsP+eypoIdKO1V0bnoajK5FHD6TTnwleVdA==}
     dependencies:
@@ -1452,12 +1642,29 @@ packages:
       '@speedy-js/source-map-win32-x64-msvc': 0.1.3
     dev: true
 
+  /@speedy-js/speedy-config-loader/0.11.2:
+    resolution: {integrity: sha512-pxMb6rMfk6naQINVmsqi3M9l4tClJerHNlcfOwa3z4cxwp2VkOY3NzoHd7fB1UuDh4YBJcsMf1FrgXFG6C6EXQ==}
+    dev: true
+
   /@speedy-js/speedy-config-loader/0.11.2-alpha.0:
     resolution: {integrity: sha512-uzNWeIiC6ckHEvW/09VBLjAIMps0dpq/8U5O/TkprzTKnzeg2xOxZUZ9QWMTFrgXx0kIa8n28Zq0GaGSOGUFeQ==}
     dev: true
 
   /@speedy-js/speedy-config-loader/0.11.2-alpha.3:
     resolution: {integrity: sha512-jgx91dRp7R9HFEklw5Uo7hmX4scHrQLygcpD/56lni5mei3sZ4OG7lwj+k5lUfwKsjimqRTPcOClPu+4FxUUjQ==}
+    dev: true
+
+  /@speedy-js/speedy-core/0.11.2:
+    resolution: {integrity: sha512-F3+CV0nRg+z84Y39g+tfnCgk8JVSk50orttkk1q0RLUrDCjh+CMypX0NytY9E2XvBiMlXLdRs2aHEY4Wxu+v/g==}
+    hasBin: true
+    dependencies:
+      '@prebundle/detect-port': 1.3.1
+      '@speedy-js/source-map': 0.1.3
+      '@speedy-js/speedy-config-loader': 0.11.2
+      '@speedy-js/speedy-diagnostic': 0.11.2
+      '@speedy-js/speedy-utils': 0.11.2
+      '@swc/core': 1.2.151
+      esbuild: 0.14.25
     dev: true
 
   /@speedy-js/speedy-core/0.11.2-alpha.0:
@@ -1482,14 +1689,22 @@ packages:
       esbuild: 0.14.23
     dev: true
 
+  /@speedy-js/speedy-diagnostic/0.11.2:
+    resolution: {integrity: sha512-zDJ8X7X0DGX5EOx8Xkn/m7Ii93svWnbKis2h192MUomMmPLIjrLExQL5SXmd53Q5McGvyMVvEbqdv7BgPDQG+A==}
+    dependencies:
+      '@speedy-js/speedy-types': 0.11.2
+    dev: true
+
   /@speedy-js/speedy-plugin-babel/0.9.2-alpha.2:
     resolution: {integrity: sha512-3Cfum8aQoWTkvp6Wi6JHNeDYEWOPjdEoYHlW+vLmAd3qfxEQ+bkE5Oo0J2QOvpRZdUuaeMXggAzHhd3Et9BDLA==}
     dev: true
 
-  /@speedy-js/speedy-plugin-es5/0.11.2-alpha.0:
-    resolution: {integrity: sha512-5fZP9Opj/ZSBrLxt9gryHi+zPecUzS1nxVE91nSnu0GMezNPt2vMGUdmBkvEkz+K5IOPfftg8TpE4lCoBQW4pw==}
+  /@speedy-js/speedy-plugin-es5/0.11.2:
+    resolution: {integrity: sha512-Uc7c0iS2c5XI7XlpzDwsApuahZ8xz4qt49t+Wvxv+Ybl/aSfxg8A1HntMtLgwbiySshcFywKgtJs4PQ4YQPaeg==}
     dependencies:
       '@babel/runtime-corejs3': 7.17.2
+      core-js: 3.21.1
+      regenerator-runtime: 0.13.9
     dev: true
 
   /@speedy-js/speedy-plugin-node-polyfill/0.11.2-alpha.1:
@@ -1532,10 +1747,10 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@speedy-js/speedy-plugin-progress/0.11.2-alpha.3_@types+react@17.0.40:
-    resolution: {integrity: sha512-Q7JH/B+zq+zmTNYBu4GAxBNLWKVLAYKQ+MX/h1ot2/uk4zM1U7LghqnlkF6AK83Og8rzPcTx4OKWYFYqwbABTg==}
+  /@speedy-js/speedy-plugin-progress/0.11.2_@types+react@17.0.43:
+    resolution: {integrity: sha512-/MHMibxSCzcN+DDPUv6YZJdjSIJVct+Gyobh/fKSxCxjhSqvHY1gBPmNF1MQPM5U8Bt1MtMBjMdcFZLomTriIw==}
     dependencies:
-      ink: 3.2.0_00d6772dea80510e818fd171caaa025a
+      ink: 3.2.0_03a98942b76c57740a9573edba2d1cc1
       react: 17.0.2
     transitivePeerDependencies:
       - '@types/react'
@@ -1555,12 +1770,12 @@ packages:
       - supports-color
     dev: true
 
-  /@speedy-js/speedy-plugin-vue2/0.10.0_68dd5271f93066f8b9ca10d8f02bfc44:
-    resolution: {integrity: sha512-ueKXlnGoPGeyqneIo3K0+20jgxufegAazVbf3GgLIuaktYSkdkM/XD10e7IUsnCKZovsUj147Y2esiETtEchTA==}
+  /@speedy-js/speedy-plugin-vue2/0.11.2_68dd5271f93066f8b9ca10d8f02bfc44:
+    resolution: {integrity: sha512-icZsf3ckBobHoqX09CaalBfFwHdoHqdgscL8CjeosvwPY3m2t5jfZ288hWXYCAtKYzJ4npbTNmq+YSRT3dv9UA==}
     peerDependencies:
       vue-template-compiler: '*'
     dependencies:
-      '@speedy-js/speedy-types': 0.10.0
+      '@speedy-js/speedy-types': 0.11.2
       '@vue/component-compiler': 4.2.4_68dd5271f93066f8b9ca10d8f02bfc44
       '@vue/component-compiler-utils': 3.3.0
       debug: 4.3.1
@@ -1591,8 +1806,8 @@ packages:
       - supports-color
     dev: true
 
-  /@speedy-js/speedy-types/0.10.0:
-    resolution: {integrity: sha512-EqpTyKOrEbO/cbSu+H4G8D+LDrEZrddT/RgrU44v3w8rDCkzJqi5cgvT60KvpYYJ5pRal7T4Aff7Fh61aaGftw==}
+  /@speedy-js/speedy-types/0.11.2:
+    resolution: {integrity: sha512-Hy/d5YUDVpmh/uAplH1yeo5V9QfxRFBm3Inrx70pRiJwv9ybVN1niLJYK9kQ/DqBPs/oPDb0Z5kDQG50OsEdXg==}
     dev: true
 
   /@speedy-js/speedy-types/0.9.2-0_debug@4.3.1:
@@ -1612,6 +1827,10 @@ packages:
 
   /@speedy-js/speedy-types/0.9.2-alpha.1:
     resolution: {integrity: sha512-i0Esacoqh3ARxus8LcZq7iP4gEO/LGXkk8ZQSvIKcI+l82JSGPCdrwUEbQ8QD/I545to582UPg6un2Sv7eNmFg==}
+    dev: true
+
+  /@speedy-js/speedy-utils/0.11.2:
+    resolution: {integrity: sha512-NJb/hZFtHf4XDnoLZEjJQd0nRWn1M+Nc/MisPXroHS3vPFd/7OCwnhjkBFZccidXekp6w9mbRh4vjpl6DxhF7Q==}
     dev: true
 
   /@speedy-js/speedy-utils/0.11.2-alpha.0:
@@ -1639,25 +1858,25 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@speedy-js/universal/0.0.21_@types+react@17.0.40:
-    resolution: {integrity: sha512-foxKXL8Fl6Kv1dopZSnrHDNYCoRoP1Y6WhhqaqnQtTncVnzEZvXTl6EshYnYtMBQN3Zo4xAdwKIG/hDMyy1YXA==}
+  /@speedy-js/universal/0.0.25_@types+react@17.0.43:
+    resolution: {integrity: sha512-qhZj4Yq7Tsj5jIdSgELaGxzxDBOS2x7gEAajhThjuFg9jK0tYWGSWKGMXMKqdjp8y69fHtagf1aY79OhDrMekw==}
     hasBin: true
     dependencies:
       '@prebundle/detect-port': 1.3.1
       '@prebundle/mime-types': 2.1.34
-      '@speedy-js/speedy-config-loader': 0.11.2-alpha.3
-      '@speedy-js/speedy-core': 0.11.2-alpha.3
-      '@speedy-js/speedy-plugin-progress': 0.11.2-alpha.3_@types+react@17.0.40
-      '@speedy-js/speedy-utils': 0.11.2-alpha.3
-      esbuild: 0.14.23
+      '@speedy-js/speedy-config-loader': 0.11.2
+      '@speedy-js/speedy-core': 0.11.2
+      '@speedy-js/speedy-plugin-progress': 0.11.2_@types+react@17.0.43
+      '@speedy-js/speedy-utils': 0.11.2
+      esbuild: 0.14.25
     transitivePeerDependencies:
       - '@types/react'
       - bufferutil
       - utf-8-validate
     dev: true
 
-  /@speedy-js/unplugin/0.11.1:
-    resolution: {integrity: sha512-hBQ2UrM2INUOlWQuxFTMQ2OwHjjdDHr8AYGnO1yWmvzu2M3wGiBToytzSyB8CX1JMOHBT7IJwKcuTv369eFp1A==}
+  /@speedy-js/unplugin/0.11.2:
+    resolution: {integrity: sha512-1vV5n3pSicfI6QIS9BNGEU83/umn89V8dYmQ32YNaE7OdXMbXkrwU7+GLM5b8HL6+sOK0zn4DCVL0gzrPt2uyA==}
     dev: true
 
   /@speedy-js/unplugin/0.9.2-0:
@@ -1801,6 +2020,130 @@ packages:
       cosmiconfig: 7.0.1
       deepmerge: 4.2.2
       svgo: 2.8.0
+    dev: true
+
+  /@swc/core-android-arm-eabi/1.2.151:
+    resolution: {integrity: sha512-Suk3IcHdha33K4hq9tfBCwkXJsENh7kjXCseLqL8Yvy8QobqkXjf1fcoJxX9BdCmPwsKmIw0ZgCBYR+Hl83M2w==}
+    engines: {node: '>=10'}
+    cpu: [arm]
+    os: [android]
+    dev: true
+    optional: true
+
+  /@swc/core-android-arm64/1.2.151:
+    resolution: {integrity: sha512-HZVy69dVWT5RgrMJMRK5aiicPmhzkyCHAexApYAHYLgAIhsxL7uoAIPmuRKRkrKNJjrwsWL7H27bBH5bddRDvg==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [android]
+    dev: true
+    optional: true
+
+  /@swc/core-darwin-arm64/1.2.151:
+    resolution: {integrity: sha512-Ql7rXMu+IC76TemRtkt+opl5iSpX2ApAXVSfvf6afNVTrfTKLpDwiR3ySRRlG0FnNIv6TfOCJpHf655xp01S/g==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [darwin]
+    dev: true
+    optional: true
+
+  /@swc/core-darwin-x64/1.2.151:
+    resolution: {integrity: sha512-N1OBIB7xatR5eybLo91ZhvMJMxT0zxRQURV/a9I8o5CyP4iLd1k8gmrYvBbtj08ohS8F9z7k/dFjxk/9ve5Drw==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [darwin]
+    dev: true
+    optional: true
+
+  /@swc/core-freebsd-x64/1.2.151:
+    resolution: {integrity: sha512-WVIRiDzuz+/W7BMjVtg1Cmk1+zmDT18Qq+Ygr9J6aFQ1JQUkLEE1pvtkGD3JIEa6Jhz/VwM6AFHtY5o1CrZ21w==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [freebsd]
+    dev: true
+    optional: true
+
+  /@swc/core-linux-arm-gnueabihf/1.2.151:
+    resolution: {integrity: sha512-pfBrIUwu3cR/M7DzDCUJAw9jFKXvJ/Ge8auFk07lRb+JcDnPm0XxLyrLqGvNQWdcHgXeXfmnS4fMQxdb9GUN1w==}
+    engines: {node: '>=10'}
+    cpu: [arm]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@swc/core-linux-arm64-gnu/1.2.151:
+    resolution: {integrity: sha512-M+BTkTdPY7gteM+0dYz9wrU/j9taL4ccqPEHkDEKP21lS24y99UtuKsvdBLzDm/6ShBVLFAkgIBPu5cEb7y6ig==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@swc/core-linux-arm64-musl/1.2.151:
+    resolution: {integrity: sha512-7A+yTtSvPJVwO8X1cxUbD/PVCx8G9MKn83G9pH/r+9sQMBXqxyw6/NR0DG6nMMiyOmJkmYWgh5mO47BN7WC4dQ==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@swc/core-linux-x64-gnu/1.2.151:
+    resolution: {integrity: sha512-ORlbN3wf1w0IQGjGToYYC/hV/Vwfcs88Ohfxc4X+IQaw/VxKG6/XT65c0btK640F2TVhvhH1MbYFJJlsycsW7g==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@swc/core-linux-x64-musl/1.2.151:
+    resolution: {integrity: sha512-r6odKE3+9+ReVdnNTZnICt5tscyFFtP4GFcmPQzBSlVoD9LZX6O4WeOlFXn77rVK/+205n2ag/KkKgZH+vdPuQ==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [linux]
+    dev: true
+    optional: true
+
+  /@swc/core-win32-arm64-msvc/1.2.151:
+    resolution: {integrity: sha512-jnjJTNHpLhBaPwRgiKv1TdrMljL88ePqMCdVMantyd7yl4lP0D2e5/xR9ysR9S4EGcUnOyo9w8WUYhx/TioMZw==}
+    engines: {node: '>=10'}
+    cpu: [arm64]
+    os: [win32]
+    dev: true
+    optional: true
+
+  /@swc/core-win32-ia32-msvc/1.2.151:
+    resolution: {integrity: sha512-hSCxAiyDDXKvdUExj4jSIhzWFePqoqak1qdNUjlhEhEinDG8T8PTRCLalyW6fqZDcLf6Tqde7H79AqbfhRlYGQ==}
+    engines: {node: '>=10'}
+    cpu: [ia32]
+    os: [win32]
+    dev: true
+    optional: true
+
+  /@swc/core-win32-x64-msvc/1.2.151:
+    resolution: {integrity: sha512-HOkqcJWCChps83Maj0M5kifPDuZ2sGPqpLM67poawspTFkBh0QJ9TMmxW1doQw+74cqsTpRi1ewr/KhsN18i5g==}
+    engines: {node: '>=10'}
+    cpu: [x64]
+    os: [win32]
+    dev: true
+    optional: true
+
+  /@swc/core/1.2.151:
+    resolution: {integrity: sha512-oHgqKwK/Djv765zUHPiGqfMCaKIxXTgQyyCUBKLBQfAJwe/7FVobQ2fghBp4FsZA/NE1LZBmMPpRZNQwlGjeHw==}
+    engines: {node: '>=10'}
+    hasBin: true
+    optionalDependencies:
+      '@swc/core-android-arm-eabi': 1.2.151
+      '@swc/core-android-arm64': 1.2.151
+      '@swc/core-darwin-arm64': 1.2.151
+      '@swc/core-darwin-x64': 1.2.151
+      '@swc/core-freebsd-x64': 1.2.151
+      '@swc/core-linux-arm-gnueabihf': 1.2.151
+      '@swc/core-linux-arm64-gnu': 1.2.151
+      '@swc/core-linux-arm64-musl': 1.2.151
+      '@swc/core-linux-x64-gnu': 1.2.151
+      '@swc/core-linux-x64-musl': 1.2.151
+      '@swc/core-win32-arm64-msvc': 1.2.151
+      '@swc/core-win32-ia32-msvc': 1.2.151
+      '@swc/core-win32-x64-msvc': 1.2.151
     dev: true
 
   /@trysound/sax/0.2.0:
@@ -2900,10 +3243,10 @@ packages:
       '@types/react': 17.0.39
     dev: true
 
-  /@types/react-dom/17.0.13:
-    resolution: {integrity: sha512-wEP+B8hzvy6ORDv1QBhcQia4j6ea4SFIBttHYpXKPFZRviBvknq0FRh3VrIxeXUmsPkwuXVZrVGG7KUVONmXCQ==}
+  /@types/react-dom/17.0.14:
+    resolution: {integrity: sha512-H03xwEP1oXmSfl3iobtmQ/2dHF5aBHr8aUMwyGZya6OW45G+xtdzmq6HkncefiBt5JU8DVyaWl/nWZbjZCnzAQ==}
     dependencies:
-      '@types/react': 17.0.40
+      '@types/react': 17.0.43
     dev: true
 
   /@types/react-redux/7.1.22:
@@ -2930,8 +3273,8 @@ packages:
       '@types/scheduler': 0.16.2
       csstype: 3.0.10
 
-  /@types/react/17.0.40:
-    resolution: {integrity: sha512-UrXhD/JyLH+W70nNSufXqMZNuUD2cXHu6UjCllC6pmOQgBX4SGXOH8fjRka0O0Ee0HrFxapDD8Bwn81Kmiz6jQ==}
+  /@types/react/17.0.43:
+    resolution: {integrity: sha512-8Q+LNpdxf057brvPu1lMtC5Vn7J119xrP1aq4qiaefNioQUYANF/CYeK4NsKorSZyUGJ66g0IM+4bbjwx45o2A==}
     dependencies:
       '@types/prop-types': 15.7.4
       '@types/scheduler': 0.16.2
@@ -4169,6 +4512,11 @@ packages:
     requiresBuild: true
     dev: true
 
+  /core-js/3.21.1:
+    resolution: {integrity: sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==}
+    requiresBuild: true
+    dev: true
+
   /cosmiconfig/7.0.1:
     resolution: {integrity: sha512-a1YWNUV2HwGimB7dU2s1wUMurNKjpx60HxBB6xUM8Re+2s1g1IIfJvFR0/iCF+XHdE0GMTKTuLR32UQff4TEyQ==}
     engines: {node: '>=10'}
@@ -4729,6 +5077,14 @@ packages:
     resolution: {integrity: sha1-wsNYJlYkfDnqEHyx5mUrb58kUjw=}
     dev: true
 
+  /esbuild-android-64/0.14.25:
+    resolution: {integrity: sha512-L5vCUk7TzFbBnoESNoXjU3x9+/+7TDIE/1mTfy/erAfvZAqC+S3sp/Qa9wkypFMcFvN9FzvESkTlpeQDolREtQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+    dev: true
+    optional: true
+
   /esbuild-android-arm64/0.14.13:
     resolution: {integrity: sha512-rhtwl+KJ3BzzXkK09N3/YbEF1i5WhriysJEStoeWNBzchx9hlmzyWmDGQQhu56HF78ua3JrVPyLOsdLGvtMvxQ==}
     cpu: [arm64]
@@ -4743,6 +5099,14 @@ packages:
     cpu: [arm64]
     os: [android]
     requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-android-arm64/0.14.25:
+    resolution: {integrity: sha512-4jv5xPjM/qNm27T5j3ZEck0PvjgQtoMHnz4FzwF5zNP56PvY2CT0WStcAIl6jNlsuDdN63rk2HRBIsO6xFbcFw==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
     dev: true
     optional: true
 
@@ -4763,6 +5127,14 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-darwin-64/0.14.25:
+    resolution: {integrity: sha512-TGp8tuudIxOyWd1+8aYPxQmC1ZQyvij/AfNBa35RubixD0zJ1vkKHVAzo0Zao1zcG6pNqiSyzfPto8vmg0s7oA==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+    dev: true
+    optional: true
+
   /esbuild-darwin-arm64/0.14.13:
     resolution: {integrity: sha512-UttqKRFXsWvuivcyAbFmo54vdkC9Me1ZYQNuoz/uBYDbkb2MgqKYG2+xoVKPBhLvhT0CKM5QGKD81flMH5BE6A==}
     cpu: [arm64]
@@ -4777,6 +5149,14 @@ packages:
     cpu: [arm64]
     os: [darwin]
     requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-darwin-arm64/0.14.25:
+    resolution: {integrity: sha512-oTcDgdm0MDVEmw2DWu8BV68pYuImpFgvWREPErBZmNA4MYKGuBRaCiJqq6jZmBR1x+3y1DWCjez+5uLtuAm6mw==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
     dev: true
     optional: true
 
@@ -4797,6 +5177,14 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-freebsd-64/0.14.25:
+    resolution: {integrity: sha512-ueAqbnMZ8arnuLH8tHwTCQYeptnHOUV7vA6px6j4zjjQwDx7TdP7kACPf3TLZLdJQ3CAD1XCvQ2sPhX+8tacvQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+    dev: true
+    optional: true
+
   /esbuild-freebsd-arm64/0.14.13:
     resolution: {integrity: sha512-bNOHLu7Oq6RwaAMnwPbJ40DVGPl9GlAOnfH/dFZ792f8hFEbopkbtVzo1SU1jjfY3TGLWOgqHNWxPxx1N7Au+g==}
     cpu: [arm64]
@@ -4811,6 +5199,14 @@ packages:
     cpu: [arm64]
     os: [freebsd]
     requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-freebsd-arm64/0.14.25:
+    resolution: {integrity: sha512-+ZVWud2HKh+Ob6k/qiJWjBtUg4KmJGGmbvEXXW1SNKS7hW7HU+Zq2ZCcE1akFxOPkVB+EhOty/sSek30tkCYug==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
     dev: true
     optional: true
 
@@ -4831,6 +5227,14 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-linux-32/0.14.25:
+    resolution: {integrity: sha512-3OP/lwV3kCzEz45tobH9nj+uE4ubhGsfx+tn0L26WAGtUbmmcRpqy7XRG/qK7h1mClZ+eguIANcQntYMdYklfw==}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+    dev: true
+    optional: true
+
   /esbuild-linux-64/0.14.13:
     resolution: {integrity: sha512-P6OFAfcoUvE7g9h/0UKm3qagvTovwqpCF1wbFLWe/BcCY8BS1bR/+SxUjCeKX2BcpIsg4/43ezHDE/ntg/iOpw==}
     cpu: [x64]
@@ -4845,6 +5249,14 @@ packages:
     cpu: [x64]
     os: [linux]
     requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-64/0.14.25:
+    resolution: {integrity: sha512-+aKHdHZmX9qwVlQmu5xYXh7GsBFf4TWrePgeJTalhXHOG7NNuUwoHmketGiZEoNsWyyqwH9rE5BC+iwcLY30Ug==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
     dev: true
     optional: true
 
@@ -4865,6 +5277,14 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-linux-arm/0.14.25:
+    resolution: {integrity: sha512-aTLcE2VBoLydL943REcAcgnDi3bHtmULSXWLbjtBdtykRatJVSxKMjK9YlBXUZC4/YcNQfH7AxwVeQr9fNxPhw==}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+    dev: true
+    optional: true
+
   /esbuild-linux-arm64/0.14.13:
     resolution: {integrity: sha512-k/uIvmkm4mc7vyMvJVwILgGxi2F+FuvLdmESIIWoHrnxEfEekC5AWpI/R6GQ2OMfp8snebSQLs8KL05QPnt1zA==}
     cpu: [arm64]
@@ -4879,6 +5299,14 @@ packages:
     cpu: [arm64]
     os: [linux]
     requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-arm64/0.14.25:
+    resolution: {integrity: sha512-UxfenPx/wSZx55gScCImPtXekvZQLI2GW3qe5dtlmU7luiqhp5GWPzGeQEbD3yN3xg/pHc671m5bma5Ns7lBHw==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
     dev: true
     optional: true
 
@@ -4899,6 +5327,14 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-linux-mips64le/0.14.25:
+    resolution: {integrity: sha512-wLWYyqVfYx9Ur6eU5RT92yJVsaBGi5RdkoWqRHOqcJ38Kn60QMlcghsKeWfe9jcYut8LangYZ98xO1LxIoSXrQ==}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+    dev: true
+    optional: true
+
   /esbuild-linux-ppc64le/0.14.13:
     resolution: {integrity: sha512-0KqDSIkZaYugtcdpFCd3eQ38Fg6TzhxmOpkhDIKNTwD/W2RoXeiS+Z4y5yQ3oysb/ySDOxWkwNqTdXS4sz2LdQ==}
     cpu: [ppc64]
@@ -4916,12 +5352,28 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-linux-ppc64le/0.14.25:
+    resolution: {integrity: sha512-0dR6Csl6Zas3g4p9ULckEl8Mo8IInJh33VCJ3eaV1hj9+MHGdmDOakYMN8MZP9/5nl+NU/0ygpd14cWgy8uqRw==}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+    dev: true
+    optional: true
+
   /esbuild-linux-riscv64/0.14.23:
     resolution: {integrity: sha512-fbL3ggK2wY0D8I5raPIMPhpCvODFE+Bhb5QGtNP3r5aUsRR6TQV+ZBXIaw84iyvKC8vlXiA4fWLGhghAd/h/Zg==}
     engines: {node: '>=12'}
     cpu: [riscv64]
     os: [linux]
     requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-linux-riscv64/0.14.25:
+    resolution: {integrity: sha512-J4d20HDmTrgvhR0bdkDhvvJGaikH3LzXQnNaseo8rcw9Yqby9A90gKUmWpfwqLVNRILvNnAmKLfBjCKU9ajg8w==}
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
     dev: true
     optional: true
 
@@ -4942,6 +5394,14 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-linux-s390x/0.14.25:
+    resolution: {integrity: sha512-YI2d5V6nTE73ZnhEKQD7MtsPs1EtUZJ3obS21oxQxGbbRw1G+PtJKjNyur+3t6nzHP9oTg6GHQ3S3hOLLmbDIQ==}
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+    dev: true
+    optional: true
+
   /esbuild-netbsd-64/0.14.13:
     resolution: {integrity: sha512-jz96PQb0ltqyqLggPpcRbWxzLvWHvrZBHZQyjcOzKRDqg1fR/R1y10b1Cuv84xoIbdAf+ceNUJkMN21FfR9G2g==}
     cpu: [x64]
@@ -4956,6 +5416,14 @@ packages:
     cpu: [x64]
     os: [netbsd]
     requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-netbsd-64/0.14.25:
+    resolution: {integrity: sha512-TKIVgNWLUOkr+Exrye70XTEE1lJjdQXdM4tAXRzfHE9iBA7LXWcNtVIuSnphTqpanPzTDFarF0yqq4kpbC6miA==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
     dev: true
     optional: true
 
@@ -4984,6 +5452,14 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-openbsd-64/0.14.25:
+    resolution: {integrity: sha512-QgFJ37A15D7NIXBTYEqz29+uw3nNBOIyog+3kFidANn6kjw0GHZ0lEYQn+cwjyzu94WobR+fes7cTl/ZYlHb1A==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+    dev: true
+    optional: true
+
   /esbuild-register/3.3.2_esbuild@0.14.13:
     resolution: {integrity: sha512-jceAtTO6zxPmCfSD5cBb3rgIK1vmuqCKYwgylHiS1BF4pq0jJiJb4K2QMuqF4BEw7XDBRatYzip0upyTzfkgsQ==}
     peerDependencies:
@@ -5009,6 +5485,14 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-sunos-64/0.14.25:
+    resolution: {integrity: sha512-rmWfjUItYIVlqr5EnTH1+GCxXiBOC42WBZ3w++qh7n2cS9Xo0lO5pGSG2N+huOU2fX5L+6YUuJ78/vOYvefeFw==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+    dev: true
+    optional: true
+
   /esbuild-windows-32/0.14.13:
     resolution: {integrity: sha512-MW3BMIi9+fzTyDdljH0ftfT/qlD3t+aVzle1O+zZ2MgHRMQD20JwWgyqoJXhe6uDVyunrAUbcjH3qTIEZN3isg==}
     cpu: [ia32]
@@ -5023,6 +5507,14 @@ packages:
     cpu: [ia32]
     os: [win32]
     requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-windows-32/0.14.25:
+    resolution: {integrity: sha512-HGAxVUofl3iUIz9W10Y9XKtD0bNsK9fBXv1D55N/ljNvkrAYcGB8YCm0v7DjlwtyS6ws3dkdQyXadbxkbzaKOA==}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
     dev: true
     optional: true
 
@@ -5043,6 +5535,14 @@ packages:
     dev: true
     optional: true
 
+  /esbuild-windows-64/0.14.25:
+    resolution: {integrity: sha512-TirEohRkfWU9hXLgoDxzhMQD1g8I2mOqvdQF2RS9E/wbkORTAqJHyh7wqGRCQAwNzdNXdg3JAyhQ9/177AadWA==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    dev: true
+    optional: true
+
   /esbuild-windows-arm64/0.14.13:
     resolution: {integrity: sha512-oX5hmgXk9yNKbb5AxThzRQm/E9kiHyDll7JJeyeT1fuGENTifv33f0INCpjBQ+Ty5ChKc84++ZQTEBwLCA12Kw==}
     cpu: [arm64]
@@ -5057,6 +5557,14 @@ packages:
     cpu: [arm64]
     os: [win32]
     requiresBuild: true
+    dev: true
+    optional: true
+
+  /esbuild-windows-arm64/0.14.25:
+    resolution: {integrity: sha512-4ype9ERiI45rSh+R8qUoBtaj6kJvUOI7oVLhKqPEpcF4Pa5PpT3hm/mXAyotJHREkHpM87PAJcA442mLnbtlNA==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
     dev: true
     optional: true
 
@@ -5110,6 +5618,34 @@ packages:
       esbuild-windows-32: 0.14.23
       esbuild-windows-64: 0.14.23
       esbuild-windows-arm64: 0.14.23
+    dev: true
+
+  /esbuild/0.14.25:
+    resolution: {integrity: sha512-4JHEIOMNFvK09ziiL+iVmldIhLbn49V4NAVo888tcGFKedEZY/Y8YapfStJ6zSE23tzYPKxqKwQBnQoIO0BI/Q==}
+    engines: {node: '>=12'}
+    hasBin: true
+    requiresBuild: true
+    optionalDependencies:
+      esbuild-android-64: 0.14.25
+      esbuild-android-arm64: 0.14.25
+      esbuild-darwin-64: 0.14.25
+      esbuild-darwin-arm64: 0.14.25
+      esbuild-freebsd-64: 0.14.25
+      esbuild-freebsd-arm64: 0.14.25
+      esbuild-linux-32: 0.14.25
+      esbuild-linux-64: 0.14.25
+      esbuild-linux-arm: 0.14.25
+      esbuild-linux-arm64: 0.14.25
+      esbuild-linux-mips64le: 0.14.25
+      esbuild-linux-ppc64le: 0.14.25
+      esbuild-linux-riscv64: 0.14.25
+      esbuild-linux-s390x: 0.14.25
+      esbuild-netbsd-64: 0.14.25
+      esbuild-openbsd-64: 0.14.25
+      esbuild-sunos-64: 0.14.25
+      esbuild-windows-32: 0.14.25
+      esbuild-windows-64: 0.14.25
+      esbuild-windows-arm64: 0.14.25
     dev: true
 
   /escalade/3.1.1:
@@ -5903,7 +6439,7 @@ packages:
   /inherits/2.0.4:
     resolution: {integrity: sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==}
 
-  /ink/3.2.0_00d6772dea80510e818fd171caaa025a:
+  /ink/3.2.0_03a98942b76c57740a9573edba2d1cc1:
     resolution: {integrity: sha512-firNp1q3xxTzoItj/eOOSZQnYSlyrWks5llCTVX37nJ59K3eXbQ8PtzCguqo8YI19EELo5QxaKnJd4VxzhU8tg==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -5913,7 +6449,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 17.0.40
+      '@types/react': 17.0.43
       ansi-escapes: 4.3.2
       auto-bind: 4.0.0
       chalk: 4.1.2
@@ -8266,8 +8802,8 @@ packages:
     hasBin: true
     dev: true
 
-  /typescript/4.6.2:
-    resolution: {integrity: sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==}
+  /typescript/4.6.3:
+    resolution: {integrity: sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
