@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "speedy dev",
     "start": "speedy start",
-    "build": "speedy build"
+    "build": "speedy build",
+    "dev:local": "speedy dev -c speedy.config.local.js",
+    "dev:esbuild": "speedy dev -c speedy.config.esbuild.js"
   },
   "dependencies": {
     "@antv/data-set": "^0.11.8",
@@ -34,7 +36,8 @@
   },
   "devDependencies": {
     "@arco-design/web-react": "^2.0.0",
-    "@speedy-js/speedy-core": "0.11.2-alpha.0",
+    "@speedy-js/esbuild": " 0.14.28-speedy-0",
+    "@speedy-js/speedy-core": "0.11.2",
     "@speedy-js/speedy-plugin-babel": "0.9.2-alpha.2",
     "@speedy-js/speedy-plugin-svgr": "0.9.2-alpha.1",
     "@speedy-js/unplugin": "0.9.2-alpha.2",
