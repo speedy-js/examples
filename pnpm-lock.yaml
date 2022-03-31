@@ -407,6 +407,14 @@ importers:
       '@types/react-dom': 17.0.14
       typescript: 4.6.3
 
+  playground/client-types:
+    specifiers:
+      '@speedy-js/speedy-core': latest
+      typescript: latest
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2-alpha.0
+      typescript: 4.6.2
+
   playground/entry-html:
     specifiers:
       '@speedy-js/speedy-core': 0.11.2-alpha.3
