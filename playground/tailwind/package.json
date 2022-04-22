@@ -1,0 +1,23 @@
+{
+  "name": "speedy-tailwind-example",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "speedy build -c speedy.config.ts",
+    "dev": "speedy dev -c speedy.config.ts",
+    "start": "speedy start"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@speedy-js/speedy-core": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "10.4.4",
+    "postcss": "8.4.12",
+    "tailwindcss": "3.0.24",
+    "typescript": "latest"
+  }
+}
