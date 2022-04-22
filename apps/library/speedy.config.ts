@@ -1,7 +1,7 @@
 import { defineConfig } from '@speedy-js/speedy-core';
 import path from 'path';
 
-export = defineConfig({
+export default defineConfig({
   input: {
     main: path.resolve(__dirname, './src/lib.ts'),
   },

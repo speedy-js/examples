@@ -1,6 +1,6 @@
 import { defineConfig } from '@speedy-js/universal';
 
-export = defineConfig({
+export default defineConfig({
   ssr: {
     pages: [
       {

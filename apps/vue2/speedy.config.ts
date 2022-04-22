@@ -1,7 +1,7 @@
 import { defineConfig } from '@speedy-js/speedy-core';
 import vue from '@speedy-js/speedy-plugin-vue2';
 import path from 'path';
-export = defineConfig({
+export default defineConfig({
   plugins: [vue()],
   input: {
     index: './src/main.js',
