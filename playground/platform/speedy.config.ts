@@ -1,6 +1,6 @@
 import { defineConfig }  from '@speedy-js/speedy-core';
 import {nodePolyfillPlugin } from '@speedy-js/speedy-plugin-node-polyfill'
-export = defineConfig([{
+export default defineConfig([{
   input: {
     node: './src/index.ts'
   },

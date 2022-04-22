@@ -1,6 +1,6 @@
 import { defineConfig }  from '@speedy-js/speedy-core';
 
-export = defineConfig({
+export default defineConfig({
   input: {
     index: './src/index.ts'
   }

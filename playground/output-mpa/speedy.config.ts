@@ -1,6 +1,6 @@
 import { defineConfig }  from '@speedy-js/speedy-core';
 
-export = defineConfig({
+export default defineConfig({
   input: {
     first: './src/first/index.tsx',
     second: './src/second/index.tsx'

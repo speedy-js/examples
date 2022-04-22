@@ -1,7 +1,7 @@
 import {defineConfig} from '@speedy-js/speedy-core';
 import {svgrPlugin} from '@speedy-js/speedy-plugin-svgr'
 
-export = defineConfig({
+export default defineConfig({
   mode: 'development',
   input: {index: './src/index.tsx'},
   html: {},
