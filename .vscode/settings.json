@@ -24,5 +24,6 @@
   },
   "eslint.trace.server": "verbose",
   "eslint.packageManager": "pnpm",
-  "typescript.preferences.importModuleSpecifier": "relative"
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "cSpell.words": ["Windi"]
 }
