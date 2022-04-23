@@ -1,0 +1,22 @@
+{
+  "name": "speedy-tailwind-example",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "speedy build -c speedy.config.ts",
+    "dev": "speedy dev -c speedy.config.ts",
+    "start": "speedy start"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@speedy-js/speedy-core": "latest",
+    "@speedy-js/unplugin": "0.11.2",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "rollup-plugin-windicss": "1.6.1",
+    "typescript": "latest"
+  }
+}

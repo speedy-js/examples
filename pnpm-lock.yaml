@@ -673,6 +673,27 @@ importers:
       tailwindcss: 3.0.24
       typescript: 4.6.3
 
+  playground/windicss:
+    specifiers:
+      '@speedy-js/speedy-core': latest
+      '@speedy-js/unplugin': 0.11.2
+      '@types/react': latest
+      '@types/react-dom': latest
+      react: 17.0.2
+      react-dom: 17.0.2
+      rollup-plugin-windicss: 1.6.1
+      typescript: latest
+    dependencies:
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+    devDependencies:
+      '@speedy-js/speedy-core': 0.11.2
+      '@speedy-js/unplugin': 0.11.2
+      '@types/react': 18.0.6
+      '@types/react-dom': 18.0.2
+      rollup-plugin-windicss: 1.6.1
+      typescript: 4.6.3
+
 packages:
 
   /@antfu/install-pkg/0.1.0:

@@ -1,7 +1,7 @@
-# Speedy Examples: Hello React
+# Speedy Examples: TailwindCSS
 
-This example shows how to configure a basic React project.
-[]
-# Playground
+This example shows how to configure [TailwindCSS](https://tailwindcss.com/).
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/speedy-js/examples/tree/main/playground/external)
+## Playground
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/speedy-js/examples/tree/main/playground/tailwind)
